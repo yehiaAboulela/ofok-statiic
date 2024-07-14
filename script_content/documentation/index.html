@@ -1,0 +1,1386 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>DocMent - SaaS Based Multi Doctor Appointment System</title>
+    <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+    <link rel="stylesheet" href="assets/css/custom.css" media="all">
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script>
+        document.createElement('section');
+        var duration = '364',
+            easing = 'easeInBounce';
+    </script>
+    <script src="assets/js/script.js"></script>
+</head>
+
+<body class="documenter-project-docment">
+    <div id="documenter_sidebar">
+        <a href="#documenter_cover" id="documenter_logo"></a>
+        <ul id="documenter_nav">
+
+            <li class="ss">General Section</li>
+
+            <li><a href="#documenter_cover">Start</a></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#configuration">Configuration</a></li>
+            <li><a href="#requirements">Requirements</a></li>
+            <li><a href="#credentials">Credentials</a></li>
+
+            <li class="ss">Admin Section</li>
+
+            <li><a href="#setting_payment">Payment Settings</a></li>
+            <li><a href="#setting_email_template">Email Template Settings</a></li>
+            <li><a href="#setting_recaptcha">Recaptcha Settings</a></li>
+            <li><a href="#setting_theme_color">Theme Color Settings</a></li>
+            <li><a href="#setting_preloader">Preloader Settings</a></li>
+            <li><a href="#setting_clear_database">Clear Database Settings</a></li>
+            <li><a href="#admin_users">Admin Users</a></li>
+            <li><a href="#language">Language Setup</a></li>
+            <li><a href="#department">Department</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#doctor">Doctor</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#habit">Habit</a></li>
+            <li><a href="#patient_list">Patient List</a></li>
+            <li><a href="#prescription">Prescription</a></li>
+            <li><a href="#appointment">Appointment</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#admin_zoom_meeting">Zoom Meeting</a></li>
+
+
+            <li class="ss">Patient Section</li>
+            <li><a href="#patient_registration">Registration</a></li>
+            <li><a href="#patient_login">Login</a></li>
+            <li><a href="#patient_forget_password">Forget Password</a></li>
+            <li><a href="#patient_dashboard">Dashboard</a></li>
+            <li><a href="#patient_edit_profile">Edit Profile</a></li>
+            <li><a href="#patient_make_appointment">Make Appointment</a></li>
+            <li><a href="#patient_appointment_list">Appointment/Prescription List</a></li>
+            <li><a href="#patient_order">Order List</a></li>
+            <li><a href="#patient_zoom_meeting">Zoom Meeting</a></li>
+
+            <li class="ss">Doctor Section</li>
+            <li><a href="#doctor_login">Login</a></li>
+            <li><a href="#doctor_forget_password">Forget Password</a></li>
+            <li><a href="#doctor_dashboard">Dashboard</a></li>
+            <li><a href="#doctor_update_profile">Update Profile</a></li>
+            <li><a href="#doctor_create_treatment">Create Treatment/Prescription</a></li>
+            <li><a href="#doctor_appointment_history">Appointment History</a></li>
+            <li><a href="#doctor_treatment">Treatment or Prescription</a></li>
+            <li><a href="#doctor_manage_leave">Manage Leave</a></li>
+            <li><a href="#doctor_payment_history">Payment History</a></li>
+            <li><a href="#doctor_schedule">Time Schedule</a></li>
+            <li><a href="#doctor_message">Messaging with Patients</a></li>
+            <li><a href="#zoom_meeting">Zoom Meeting</a></li>
+
+
+            <li class="ss">Conclusion</li>
+            <li><a href="#support" title="Support">Support</a></li>
+            <li><a href="#how_to_update">How to Update ?</a></li>
+            <li><a href="#update_log">Update Logs</a></li>
+
+        </ul>
+    </div>
+
+
+
+    <div id="documenter_content">
+        <section id="documenter_cover">
+            <h1>DocMent</h1>
+            <h2>SaaS Based Multi Doctor Appointment System</h2>
+            <hr>
+            <ul>
+                <li>Created: 16 July, 2021</li>
+                <li>By: websolutionus</li>
+                <li>Email: <a href="mailto:">websolutionus1@gmail.com</a></li>
+            </ul>
+        </section>
+
+        <section id="introduction">
+            <div class="page-header">
+                <h3>Introduction</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Docment is a SaaS Based Doctor Appointment System. In this system, a patient can free register and login and make an appointment with his/her desired doctor. Patient can search doctor based on location or chember departmentwise and appoint quickly. Doctor
+                can also login and create treatment and prescription for his patients.
+            </p>
+            <p>
+                This system was made using the popular Laravel php framework. Strong security was maintained during the development and there is no sql injection, xss attack, csrf attack possible.
+            </p>
+        </section>
+
+        <section id="features">
+            <div class="page-header">
+                <h3>Features</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                DocMent has the following features.
+            </p>
+            <h4>Key Features</h4>
+            <ul>
+                <li>Laravel 8 is used as language</li>
+                <li>Bootstrap 4.5 is used in design</li>
+                <li>User friendly codes and easy to navigate</li>
+                <li>Eye-catching design</li>
+                <li>Strong security of codes</li>
+                <li>Search by location, doctor and department in the home page and doctor pages</li>
+                <li>Quick Appointment button on the menu</li>
+                <li>Easily navigate to patient login and registration pages.</li>
+                <li>Real time messaging between doctors and patients</li>
+                <li>Subscription verify with email</li>
+                <li>RTL support</li>
+                <li>Language change option</li>
+                <li>Zoom meeting</li>
+                <li>Script version auto update feature</li>
+                <li>Doctor payment withdraw</li>
+                <li>Doctor registration</li>
+            </ul>
+
+            <h4>Admin Features</h4>
+            <ul>
+                <li>SEO Settings for all pages</li>
+                <li>Payment setting for PayPal, Stripe, Razorpay, Flutterwave, Paystack, Instamojo, Mollie, Paymongo and Bank</li>
+                <li>Email template setting</li>
+                <li>Facebook or manual comment setup option for blog</li>
+                <li>Cookie Consent option</li>
+                <li>Google Recaptcha option</li>
+                <li>Google Analytic option</li>
+                <li>Preloader on/off option</li>
+                <li>Tawk Live Chat option</li>
+                <li>Theme color change option</li>
+                <li>Custom pagination</li>
+                <li>RTL support</li>
+                <li>Language change option</li>
+                <li>Multi admin creation possible</li>
+                <li>All Banner images change option</li>
+                <li>Admin and Doctor login page photo change option</li>
+                <li>Clear database option to start the website as fresh installation</li>
+                <li>Order view and delete by admin</li>
+                <li>Patient list view</li>
+                <li>Appointment and prescription view and print</li>
+                <li>Doctor Schedule setup</li>
+                <li>Weekday Edit option</li>
+                <li>Habit create, edit and delete option</li>
+                <li>Service create, edit and delete option</li>
+                <li>FAQ create, edit and delete option</li>
+                <li>Testimonial create, edit and delete option</li>
+                <li>Testimonial create, edit and delete option</li>
+                <li>About Page information edit option</li>
+                <li>Terms and Privacy Policy Page information edit option</li>
+                <li>Custom dynamic pages create, edit and delete option</li>
+                <li>Medicine type create, edit and delete option</li>
+                <li>Medicine create, edit and delete option</li>
+                <li>Department create, edit and delete option</li>
+                <li>Location create, edit and delete option</li>
+                <li>Doctor create, edit and delete option</li>
+                <li>Manage doctor payment withdraw system</li>
+                <li>Language change option</li>
+                <li>Home page sections manage with on/off option</li>
+                <li>Slider photo manage</li>
+                <li>Subscriber manage with email to subscribers option</li>
+                <li>Profile information, photo, password change option</li>
+                <li>Forget and reset password option</li>
+            </ul>
+
+            <h4>Doctor Features</h4>
+            <ul>
+                <li>Doctor registration</li>
+                <li>Login, forget and reset password option</li>
+                <li>Profile information, photo, password change option</li>
+                <li>Monthwise earning view from dashboard</li>
+                <li>New appointment show</li>
+                <li>Manage own patient treatment (future date appoitment manage restricted)</li>
+                <li>Prescription create and edit option with print</li>
+                <li>Appointment history and edit option</li>
+                <li>Manage own leave days</li>
+                <li>Datewise payment history search option and show earning</li>
+                <li>See own weekday schedules</li>
+                <li>Messaging option with own patients</li>
+                <li>Zoom meeting</li>
+                <li>RTL support</li>
+                <li>Manage doctor payment withdraw</li>
+            </ul>
+
+            <h4>Patient Features</h4>
+            <ul>
+                <li>Patient registration system with email verification</li>
+                <li>Patient Login, forget and reset password option</li>
+                <li>Profile information, photo, password change option</li>
+                <li>Create appintment and payment from quick appointment section on menu</li>
+                <li>Create appintment and payment from single doctor page</li>
+                <li>Messaging option with own doctors</li>
+                <li>Own appointments view option</li>
+                <li>Appointment pre notification</li>
+                <li>See orders and details.</li>
+                <li>Zoom meeting</li>
+                <li>RTL support</li>
+            </ul>
+        </section>
+
+        <section id="installation">
+            <div class="page-header">
+                <h3>Installation</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                The installation of this script is super easy. If you can install normal php based scripts on your server, you can install our script. We will tell you how to install this script step by step on a server.
+            </p>
+            <p>
+                If you extract the zip file, you will see that there are total three folders.
+                <div class="gap"><img src="assets/images/1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                The folder names are: sql, documentation and main_files. The "main_files>>main_files" folder is the main laravel source codes. The "sql" folder contains the main database file "database.sql"
+            </p>
+            <h4 class="bg">Creating Database using Cpanel</h4>
+            <p>
+                1. Login to your hosting's cpanel using the login information. You will see an interface like this:
+                <div class="gap"><img src="assets/images/install_db_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                2. You will get a search section in the cpanel. Search there by writing the word "database". You will get some options. Click on "MySQL® Database Wizard" option.
+                <div class="gap"><img src="assets/images/install_db_2.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                3. Then in Step 1, you will have to create a database. In the text field, give your database name and click on next step.
+                <div class="gap"><img src="assets/images/install_db_3.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                4. Then in Step 2, you will have to create a database user. Give your username and passwords here. Then click on "Create User" button.
+                <div class="gap"><img src="assets/images/install_db_4.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                5. Now a permission page will come. Just check the tick mark on "ALL PRIVILEGES" and you will see all the options will be automatically checked.
+                <div class="gap"><img src="assets/images/install_db_5.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                6. Click on the "Next Step" button in the bottom.
+                <div class="gap"><img src="assets/images/install_db_6.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                7. Database and user creation step is done. Now go back to home and again search like before with the word "phpmyadmin". Click on the "phpMyAdmin" option.
+                <div class="gap"><img src="assets/images/install_db_7.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                8. Now the main phpmyadmin page will come. Click on the newly created database "websolu1_testdb" from the left side.
+                <div class="gap"><img src="assets/images/install_db_8.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                9. Click on the "Import" option from top and then select the file "database.sql" that is in the "sql" folder of the script.
+                <div class="gap"><img src="assets/images/install_db_9.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                10. Then click on the "Go" button from bottom.
+                <div class="gap"><img src="assets/images/install_db_10.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                11. After the task is successful, you will get a success message.
+                <div class="gap"><img src="assets/images/install_db_11.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                12. All task related to database is done.
+            </p>
+
+
+            <h4 class="bg">Uploading Files using Cpanel</h4>
+            <p>
+                1. In the search field of your cpanel, write the word "file". You will get a "File Manager" option. Click on that option.
+                <div class="gap"><img src="assets/images/install_db_12.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                2. Search for the "public_html" and go into there.
+                <div class="gap"><img src="assets/images/install_db_13.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                3. Now go to the folders that you got after extracting the main zip and compress the folder "main_files" using any software like winrar.
+                <div class="gap"><img src="assets/images/install_db_14.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                4. The zip file will be like this.
+                <div class="gap"><img src="assets/images/install_db_15.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                5. In the cpanel's "public_html", upload this zip file.
+                <div class="gap"><img src="assets/images/install_db_16.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                6. You will get an interface like this.
+                <div class="gap"><img src="assets/images/install_db_17.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                7. Drag and drop the zip file here or just click on the "Select File" and select the file from your computer. You will see a progress of uploading file. Wait until it is finished.
+                <div class="gap"><img src="assets/images/install_db_18.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                8. After finishing the upload, you will see a green bar. It indicates that upload is successful.
+                <div class="gap"><img src="assets/images/install_db_19.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                9. Now close the upload window. In the public_html section, press on "Go" button to refresh the page. Then you will see the zip file in the right side.
+                <div class="gap"><img src="assets/images/install_db_20.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/install_db_21.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                10. Do right click on that file and select "Extract" option.
+                <div class="gap"><img src="assets/images/install_db_22.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                11. Press on "Extract Files" button.
+                <div class="gap"><img src="assets/images/install_db_23.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                12. It will take only a few minutes. After finish, you will get a window like this.
+                <div class="gap"><img src="assets/images/install_db_24.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                13. Just close this window. Then double click on the "main_files" folder and go into there.
+                <div class="gap"><img src="assets/images/install_db_25.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                14. Now click on the "Select All" from top section.
+                <div class="gap"><img src="assets/images/install_db_26.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                15. Click on the "Move" option.
+                <div class="gap"><img src="assets/images/install_db_27.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                16. Delete the "main_files" from the box. Only keep this "/public_html/". Then click on "Move Files".
+                <div class="gap"><img src="assets/images/install_db_28.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                17. Now, click on "Up One Level".
+                <div class="gap"><img src="assets/images/install_db_29.png" alt="" class="mw_100"></div>
+            </p>
+
+            <p>
+                18. Right click on ".env" file and click on "Edit".
+                <div class="gap"><img src="assets/images/install_db_30.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/install_db_31.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                19. Now edit this file and put the database name, username and password you created previously here. Then click on the "Save Changes" button.
+                <div class="gap"><img src="assets/images/install_db_32.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                Your task is done and you can use our script without any problem. :)
+            </p>
+
+            <h4 class="bg">Uploading Files using FTP</h4>
+            <p>
+                1. Download any FTP client on your computer like "FileZilla". Search on Google by "FileZilla" or go to their website to download: <br>
+                <a href="https://filezilla-project.org/" target="_blank">https://filezilla-project.org/</a>
+            </p>
+            <p>
+                2. Use the first option to download
+                <div class="gap"><img src="assets/images/ftp_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                3. After download, install it and open. The interface will be like this:
+                <div class="gap"><img src="assets/images/ftp_2.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                4. You can collect your FTP information contacting your hosting provider. Or, going to cpanel, you can create your FTP. In cpanel, search for "FTP".
+                <div class="gap"><img src="assets/images/ftp_3.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                5. Put ftp username, password in the form. Become sure, you delete the marked box data in the following image.
+                <div class="gap"><img src="assets/images/ftp_4.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                6. Click on "Create FTP Account" button.
+                <div class="gap"><img src="assets/images/ftp_5.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                7. Your FTP information will be like this: <br> FTP Host: {your hosting provider will give you host name} <br> FTP Port: 21<br> FTP Username: testftp@websolutionus.com<br> FTP Password: {that you gave while creating the FTP}
+            </p>
+            <p>
+                8. Now in filezilla put those information and click on "Quickconnect" button.
+                <div class="gap"><img src="assets/images/ftp_6.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                9. If connection is successful, you will get an interface like this:
+                <div class="gap"><img src="assets/images/ftp_7.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                10. Now in the left side box, go to the location where you have extracted the script's file. And in the right side, go to public_html.
+                <div class="gap"><img src="assets/images/ftp_8.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                11. Then right click on the "main_files" from left side box and click on "Upload". All the files then will be uploaded into the "public_html" of the right side.
+                <div class="gap"><img src="assets/images/ftp_9.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                12. Search the ".env" file, right click on it and click on "View/Edit" option.
+                <div class="gap"><img src="assets/images/ftp_10.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                13. You will see an interface like this.
+                <div class="gap"><img src="assets/images/ftp_11.png" alt="" class="mw_100"></div>
+                Change the database, username and password from here and try to click on close button. When you will try to close, it will ask you for save before closing. Click on save and you are done!
+            </p>
+
+        </section>
+
+        <section id="configuration">
+            <div class="page-header">
+                <h3>Configuration</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Before using and run this script, you must have to change the following information:
+            </p>
+            <p>
+                1. Open the .env file with a text editor and change the database and email settings.
+            </p>
+            <p>
+                2. First, set up the database name, database_username and password.
+                <div class="gap"><img src="assets/images/2.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                3. Then set up the smtp_host, smtp_port, smtp_username, smtp_password.
+                <div class="gap"><img src="assets/images/3.png" alt="" class="mw_100"></div>
+                Your host will provide these information to you. If you see email system is not working that means there is something problem with your server. Contact your host provider and they will fix you the problem.
+            </p>
+        </section>
+
+        <section id="requirements">
+            <div class="page-header">
+                <h3>Requirements</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                You will need to make sure your server meets the following requirements:
+            </p>
+            <ul>
+                <li>PHP >= 7.3</li>
+                <li>BCMath PHP Extension</li>
+                <li>Ctype PHP Extension</li>
+                <li>Fileinfo PHP extension</li>
+                <li>JSON PHP Extension</li>
+                <li>Mbstring PHP Extension</li>
+                <li>OpenSSL PHP Extension</li>
+                <li>PDO PHP Extension</li>
+                <li>Tokenizer PHP Extension</li>
+                <li>XML PHP Extension</li>
+            </ul>
+        </section>
+
+        <section id="credentials">
+            <div class="page-header">
+                <h3>Credentials</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                The default credentials of the script are:
+            </p>
+            <h4>Admin Login</h4>
+            <p>
+                URL: https://www.yourwebsite.com/admin/login <br> Login Email: admin@gmail.com <br> Login Password: 1234
+            </p>
+            <h4>Doctor Login</h4>
+            <p>
+                URL: https://www.yourwebsite.com/doctor/login <br> Login Email: doctor@gmail.com <br> Login Password: 1234
+            </p>
+            <h4>Patient Login</h4>
+            <p>
+                URL: https://www.yourwebsite.com/login <br> Login Email: patient@gmail.com <br> Login Password: 1234
+            </p>
+        </section>
+
+        <section id="setting_payment">
+            <div class="page-header">
+                <h3>Payment Settings</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Payment methods can be set up from the admin panel. Go to "Setting > Payment Account". See:
+                <div class="gap"><img src="assets/images/payment.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/payment2.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/payment3.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/payment4.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/payment5.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/payment6.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/payment7.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="setting_email_template">
+            <div class="page-header">
+                <h3>Email Template Settings</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Email Templates can be set up from the admin panel to send email in your preferred format. Go to "Setting > Email Template".See:
+                <div class="gap"><img src="assets/images/email_template_1.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/email_template_2.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="setting_recaptcha">
+            <div class="page-header">
+                <h3>Recaptcha Settings</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Recaptcha settings can be set up from the admin panel. Go to "Setting > Google Recaptcha". See:
+                <div class="gap"><img src="assets/images/recaptcha_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                To get your recaptcha keys, go to this link:<br>
+                <a href="https://www.google.com/recaptcha/admin/create" target="_blank">https://www.google.com/recaptcha/admin/create</a><br> Select version 2.
+                <div class="gap"><img src="assets/images/recaptcha_2.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                Add your website's domain name or subdomain name here and after submit you will get a site key and secret key.
+            </p>
+        </section>
+
+        <section id="setting_theme_color">
+            <div class="page-header">
+                <h3>Theme Color Settings</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Theme color setting can be set up from the admin panel. Go to "Setting > Theme Color". See:
+                <div class="gap"><img src="assets/images/theme_color.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="setting_preloader">
+            <div class="page-header">
+                <h3>Preloader Settings</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Preloader setting can be set up from the admin panel. Go to "Setting > Preloader". See:
+                <div class="gap"><img src="assets/images/preloader.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="setting_clear_database">
+            <div class="page-header">
+                <h3>Clear Database Settings</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Clear Data setting can be set up from the admin panel. Go to "Setting > Clear Database". If you want to use the software from scratch, you have to select this option. You do not need to remove the existing data one by one. See:
+                <div class="gap"><img src="assets/images/clear_data.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="admin_users">
+            <div class="page-header">
+                <h3>Admin Users</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                The main Admin can add more admins into the system. Other admins can not delete the main admin. But the main admin can delete other created admins in this system. Go to "Admin" from sidebar to do this task.
+                <div class="gap"><img src="assets/images/admin.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="language">
+            <div class="page-header">
+                <h3>Language Setup</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                The script can be translated using the language option in the sidebar. Go to "Language" from sidebar. You can also change the menu text using this otion. See:
+                <div class="gap"><img src="assets/images/language.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="department">
+            <div class="page-header">
+                <h3>Department</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Before adding a doctor, admin will have to add a department. From doctor menu of the sidebar, admin can do it. Go to "Doctor > Department" in the sidebar to do this task.
+                <div class="gap"><img src="assets/images/department_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                For each department, admin can add multiple photos, videos and FAQs that will be shown in the front end.
+                <div class="gap"><img src="assets/images/department_2.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/department_3.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/department_4.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                In the front end, the data will be shown like this:
+                <div class="gap"><img src="assets/images/department_5.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/department_6.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                Admin can not delete a department that has doctor under it.
+                <div class="gap"><img src="assets/images/department_7.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+
+
+        <section id="location">
+            <div class="page-header">
+                <h3>Location</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Before adding a doctor, admin will have to add a location. From doctor menu of the sidebar, admin can do it. Go to "Doctor > Location" in the sidebar to do this task.
+                <div class="gap"><img src="assets/images/location.png" alt="" class="mw_100"></div>
+                Admin can not delete a location that has doctor under it.
+            </p>
+        </section>
+
+
+        <section id="doctor">
+            <div class="page-header">
+                <h3>Doctor</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Only admin can create doctors in this script. Doctor can not register himself. When admin will create a doctor and setup his password, an email will be sent to that email address. Go to "Doctor > Doctor" in the sidebar to do this task.
+                <div class="gap"><img src="assets/images/doctor.png" alt="" class="mw_100"></div>
+                A doctor can not be deleted if he has any appointment with a patient.
+            </p>
+        </section>
+
+
+        <section id="schedule">
+            <div class="page-header">
+                <h3>Doctor Schedule</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Admin can create and manage doctor schedule from "Appointment > Schedule" of the sidebar.
+                <div class="gap"><img src="assets/images/schedule_1.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/schedule_2.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="habit">
+            <div class="page-header">
+                <h3>Habit</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Admin can create and manage habits from "Appointment > Habit" of the sidebar.
+                <div class="gap"><img src="assets/images/habit.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="patient_list">
+            <div class="page-header">
+                <h3>Patient List</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Admin can see and print all the registered patients from "Appointment > Patients" of the sidebar.
+                <div class="gap"><img src="assets/images/patient_list.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="prescription">
+            <div class="page-header">
+                <h3>Prescription</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Admin can see and print all the doctorwise and datewise prescriptions from "Appointment > Prescription" of the sidebar.
+                <div class="gap"><img src="assets/images/prescription.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="appointment">
+            <div class="page-header">
+                <h3>Prescription</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Admin can see all the appointments from "Appointment > Appointment" of the sidebar.
+                <div class="gap"><img src="assets/images/appointment.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="order">
+            <div class="page-header">
+                <h3>Order</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Admin can see all the completed and pending orders from the order section of the sidebar.
+                <div class="gap"><img src="assets/images/order.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                If an appointment is ordered using bank payment method by patient, it will be set as pending until admin verify the payment manually.
+                <div class="gap"><img src="assets/images/order_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                Admin will view and accept the payment.
+                <div class="gap"><img src="assets/images/order_2.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="admin_zoom_meeting">
+            <div class="page-header">
+                <h3>Zoom Meeting</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Admin can see all the Previous and Upcoming Zoom meeting withing doctor and patient.
+                <div class="gap"><img src="assets/images/doc_zoom_9.png" alt="" class="mw_100"></div>
+            </p>
+
+        </section>
+
+
+
+
+
+
+        <section id="patient_registration">
+            <div class="page-header">
+                <h3>Patient Registration</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                From the top menu, patient can click on registration.
+                <div class="gap"><img src="assets/images/patient_registration.png" alt="" class="mw_100"></div>
+                Just fill up the form and an email will be sent to patient's email. He needs to verify it. After verify he can login to the system.
+            </p>
+        </section>
+
+        <section id="patient_login">
+            <div class="page-header">
+                <h3>Patient Login</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                From the top menu, patient can click on login.
+                <div class="gap"><img src="assets/images/patient_login.png" alt="" class="mw_100"></div>
+                If a patient does not confirm his registration, he can not login.
+            </p>
+        </section>
+
+        <section id="patient_forget_password">
+            <div class="page-header">
+                <h3>Patient Forget Password</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                In the login page, there is a link to reset the password if patient forgets the existing password.
+                <div class="gap"><img src="assets/images/patient_forget_password.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="patient_dashboard">
+            <div class="page-header">
+                <h3>Patient Dashboard</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                After login, patient will see his dashboard.
+                <div class="gap"><img src="assets/images/patient_dashboard.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="patient_edit_profile">
+            <div class="page-header">
+                <h3>Patient Edit Profile</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Patient can edit his profile from left sidebar.
+                <div class="gap"><img src="assets/images/patient_edit_profile.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                Patient can change password from the left sidebar too.
+                <div class="gap"><img src="assets/images/patient_edit_profile_1.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+
+
+        <section id="patient_make_appointment">
+            <div class="page-header">
+                <h3>Patient Make Appointment</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Patient can easily make an appointment quickly clicking on the appointment button of the menu.
+                <div class="gap"><img src="assets/images/patient_appointment_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                First he will have to select a department. Then doctor box will come. In that box, all the doctors under that department will be shown.
+                <div class="gap"><img src="assets/images/patient_appointment_2.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/patient_appointment_3.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                A date box will come. Patient will have to select a date from there.
+                <div class="gap"><img src="assets/images/patient_appointment_4.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                From date, weekday will be checked if that doctor is available in that day. If doctor takes a leave on that particular day, patient can not book in that date too.
+                <div class="gap"><img src="assets/images/patient_appointment_5.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                If doctor is available in that date, all his time schedule will be displayed.
+                <div class="gap"><img src="assets/images/patient_appointment_6.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                After the "Submit" button click, patient will be redirected to the payment page.
+                <div class="gap"><img src="assets/images/patient_appointment_7.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                Patient can easily make payment using PayPal, Stripe, Razorpay, Flutterwave, Paystack, Instamojo, Mollie , Paymongo or Bank from this page.
+                <div class="gap"><img src="assets/images/patient_appointment_8.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                But if patient wants, he can make another appointment in the same procedure and pay together.
+            </p>
+            <p>
+                NB: If a patient does not fill up all his information, he can not see the payment page and the system will redirect him to the patient profile page. After completing the profile information, he can see the payment page and make payment.
+            </p>
+        </section>
+
+
+        <section id="patient_appointment_list">
+            <div class="page-header">
+                <h3>Patient Appointment/Prescription List</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Patient can see all his appointments as a list. See:
+                <div class="gap"><img src="assets/images/patient_appointment_list_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                He can only see appointments that is treated by a doctor.
+                <div class="gap"><img src="assets/images/patient_appointment_list_2.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                From the bottom of the page, patient can print this prescription.
+                <div class="gap"><img src="assets/images/patient_appointment_list_3.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="patient_order">
+            <div class="page-header">
+                <h3>Patient Order List</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Patient can see all his orders, appointments under that order.
+                <div class="gap"><img src="assets/images/patient_order_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                Patient can see order detail in a popup.
+                <div class="gap"><img src="assets/images/patient_order_2.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+        <section id="patient_zoom_meeting">
+            <div class="page-header">
+                <h3>Patient Zoom Meeting</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Patient can see his all upcoming meeting.See:
+                <div class="gap"><img src="assets/images/doc_zoom_7.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                Patient can see his all zoom meeting history.See:
+                <div class="gap"><img src="assets/images/doc_zoom_8.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+
+
+        <section id="doctor_login">
+            <div class="page-header">
+                <h3>Doctor Login</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Doctor will have to got to their login page first.
+                <div class="gap"><img src="assets/images/doctor_login.png" alt="" class="mw_100"></div>
+                In this script, doctor can not make registration by their own. Admin will create doctors from admin panel.
+            </p>
+        </section>
+
+        <section id="doctor_forget_password">
+            <div class="page-header">
+                <h3>Doctor Forget Password</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                In the login page, there is a link to reset the password if doctor forgets the existing password.
+                <div class="gap"><img src="assets/images/doctor_forget_password.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="doctor_dashboard">
+            <div class="page-header">
+                <h3>Doctor Dashboard</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                After login, doctor will see his dashboard.
+                <div class="gap"><img src="assets/images/doctor_dashboard.png" alt="" class="mw_100"></div>
+                In the dashboard, doctor can see his current day appointment list, new appointment list, earnings etc.
+            </p>
+            <p>
+                From new appointment table, doctor can see all the total appointments of the current day.
+                <div class="gap"><img src="assets/images/doctor_dashboard_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                In the bottom of the dashboard page, doctor will see a chart of the current month earnings.
+                <div class="gap"><img src="assets/images/doctor_dashboard_2.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+
+        <section id="doctor_update_profile">
+            <div class="page-header">
+                <h3>Doctor Update Profile</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Doctor have to go top right section of the page and click on his photo first.
+                <div class="gap"><img src="assets/images/doctor_update_profile_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                Then a page will come from where doctor can change his profile information.
+                <div class="gap"><img src="assets/images/doctor_update_profile_2.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+
+        <section id="doctor_create_treatment">
+            <div class="page-header">
+                <h3>Doctor Create Treatment/Prescription</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Doctor can create a new treatment or prepare a prescription for a patient going to "Today New Appointments" section of the sidebar.
+                <div class="gap"><img src="assets/images/doctor_create_treatment_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                Click on the view button and the prescription form will come here.
+                <div class="gap"><img src="assets/images/doctor_create_treatment_2.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+
+        <section id="doctor_appointment_history">
+            <div class="page-header">
+                <h3>Doctor Appointment History</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Doctor can see all his appoint list from "Manage Appointment > Appointments History" section of the sidebar.
+                <div class="gap"><img src="assets/images/doctor_appointment_history.png" alt="" class="mw_100"></div>
+                If he treated or not treated a patient, it will be shown there.
+            </p>
+        </section>
+
+        <section id="doctor_treatment">
+            <div class="page-header">
+                <h3>Treatment or Prescription</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                From the appointment history, when doctor will click on the view icon, prescription for that treamtment will come up.
+                <div class="gap"><img src="assets/images/doctor_treatment_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                Doctor can print the prescription from the bottom.
+                <div class="gap"><img src="assets/images/doctor_treatment_2.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                If doctor wants, he can click on the edit button to edit an existing prescription.
+                <div class="gap"><img src="assets/images/doctor_treatment_3.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="doctor_manage_leave">
+            <div class="page-header">
+                <h3>Doctor Manage Leave</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Doctor can manage his leave days from "Manage Leave" section.
+                <div class="gap"><img src="assets/images/doctor_manage_leave.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="doctor_payment_history">
+            <div class="page-header">
+                <h3>Doctor Payment History</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Doctor can see his total earnings, search earnings between two dates, payment history etc. from this section.
+                <div class="gap"><img src="assets/images/doctor_payment_history.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="doctor_schedule">
+            <div class="page-header">
+                <h3>Doctor Time Schedule</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Doctor can see his own time schedules added by admin in this section.
+                <div class="gap"><img src="assets/images/doctor_schedule.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="doctor_message">
+            <div class="page-header">
+                <h3>Doctor Messaging with Patients</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Doctor can send message to patients and receive message from patients in this section.
+                <div class="gap"><img src="assets/images/doctor_message.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="zoom_meeting">
+            <div class="page-header">
+                <h3>Doctor Zoom Live Consultation With Patient</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                Doctor can Create Zoom Meeting, But before create a meeting, need to setup zoom Setting. Zoom settings can be set up from the Doctor panel. Go to "Live Consultation > Setting". See:
+                <div class="gap"><img src="assets/images/doc_zoom_1.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                To get your Zoom Credentials, go to this link: <a target="_blank" href="https://marketplace.zoom.us/develop/create">https://marketplace.zoom.us/develop/create</a> . Select JWT and click create
+                <div class="gap"><img src="assets/images/o_auth_zoom.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/o_auth_zoom1.png" alt="" class="mw_100"></div>
+            </p>
+
+            <p>
+                Setup your business information the form below. Also add rediect url "https://your_website_url/doctor/callback-zoom-meeting"
+
+                <div class="gap"><img src="assets/images/o_auth_zoom2.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/o_auth_zoom3.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/o_auth_zoom4.png" alt="" class="mw_100"></div>
+            </p>
+            <p>
+                After setup your business information and continue. Zoom Credentials is here. See:
+                <div class="gap"><img src="assets/images/o_auth_zoom5.png" alt="" class="mw_100"></div>
+            </p>
+
+            <p>
+                Now Doctor can be create zoom meeting from the Doctor panel. Go to "Live Consultation > Meeting". See:
+                <div class="gap"><img src="assets/images/doc_zoom_4.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/doc_zoom_5.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/doc_zoom_6.png" alt="" class="mw_100"></div>
+            </p>
+        </section>
+
+        <section id="support">
+            <div class="page-header">
+                <h3>Support</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                If you need any help from us, you can contact via our support email: <br>
+                <a href="mailto:websolutionus1@gmail.com">websolutionus1@gmail.com</a>
+            </p>
+            <p>
+                Our support will reply within 24-48 hours.
+            </p>
+        </section>
+
+        <section id="how_to_update">
+            <div class="page-header">
+                <h3>How to update the script version ?</h3>
+                <hr class="notop">
+            </div>
+            <p>
+
+                After download the script from codecanyon you can get a zip file. After unzip the file you can total 3 folders. In the 'main_files' folder you can see 2 folder. In the 'main_files' folder there are main laravel script exist. Inside the 'all version' folder
+                you can see version list. See:
+                <div class="gap"><img src="assets/images/how_to_update.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/how_to_update1.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/how_to_update1_2.png" alt="" class="mw_100"></div>
+            </p>
+
+            <p>
+                For update any version go to the version folder and you can see a "update.zip" file. See:
+                <div class="gap"><img src="assets/images/how_to_update2.png" alt="" class="mw_100"></div>
+            </p>
+
+            <p>
+                Now goto your server and root project directory. Create e new folder, the name of folder is "update". See:
+
+                <div class="gap"><img src="assets/images/how_to_update3.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/how_to_update4.png" alt="" class="mw_100"></div>
+            </p>
+
+            <p>
+                Inside the 'update' folder you need to upload the "update.zip" file. See:
+
+                <div class="gap"><img src="assets/images/how_to_update5.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/how_to_update6.png" alt="" class="mw_100"></div>
+
+            </p>
+
+            <p>
+                Now extract the zip file. See:
+                <div class="gap"><img src="assets/images/how_to_update7.png" alt="" class="mw_100"></div>
+            </p>
+
+            <p>
+                Now go to your "http://your_domain.com/update". See:
+                <div class="gap"><img src="assets/images/how_to_update8.png" alt="" class="mw_100"></div>
+            </p>
+
+            <p>
+                If your script version is less then version 2.4 you have to add new code ".htaccess" file. The code is "RewriteRule ^update - [L]". For add this code go to project root directory, open ".htaccess" file and past this code. See:
+
+                <div class="gap"><img src="assets/images/how_to_update9.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/how_to_update10.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/how_to_update11.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/how_to_update12.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/how_to_update13.png" alt="" class="mw_100"></div>
+                <div class="gap"><img src="assets/images/how_to_update14.png" alt="" class="mw_100"></div>
+            </p>
+
+            <p>
+                Now you can see our version wizard. See:
+
+                <div class="gap"><img src="assets/images/how_to_update15.png" alt="" class="mw_100"></div>
+            </p>
+
+            <p>
+                In this page you need to click the update button step by step. After successfully update you can visit your site and enjoy latest version See:
+
+                <div class="gap"><img src="assets/images/how_to_update16.png" alt="" class="mw_100"></div>
+            </p>
+
+        </section>
+
+        <section id="update_log">
+            <div class="page-header">
+                <h3>Update Log History</h3>
+                <hr class="notop">
+            </div>
+
+            <h4>Version 2.5</h4>
+            <pre>
+<b>Overall:</b>
+- [Added]: doctor registration system
+- [Added]: doctor payment withdraw system
+- [Added]: payment withdraw method
+- [Added]: doctor send withdraw request
+- [Added]: admin approved withdraw request
+- [Added]: admin delete withdraw request
+</pre>
+
+            <h4>Version 2.4</h4>
+            <pre>
+<b>Overall:</b>
+- Modified zoom meeting create system  
+- Removed jwt token base auth system for zoom meeting 
+- Added 0Auth system for zoom meeting 
+- Removed zoom meeting edit system
+- Added the database auto generate system 
+- Added version auto update feature
+</pre>
+
+            <h4>Version 2.3</h4>
+            <pre>
+<b>Overall:</b>
+- Paymongo payment gateway integrated.
+- Doctor Login issue fixed.
+
+<b>Changed Files:</b>
+- web.php
+- App\Controllers\Admin\PaymentAccountController.php
+- App\Http\Controllers\Patient\PaymentController.php
+- App\Http\Controllers\Doctor\Auth\DoctorLoginController.php
+- resources\views\admin\payment-account\edit.blade.php
+- resources\views\patient\profile\payment.blade.php
+- public\patient\css\style.css
+- inserted last 5 rows in manage_texts.sql 
+- inserted last 2 rows in notification_texts.sql
+
+<b>New Files:</b>
+- App\PaymongoPayment.php
+- paymongo_payments.sql
+</pre>
+            <h4>Version 2.2</h4>
+            <pre>
+<b>Overall:</b>
+- Instamojo, Paystack and Mollie Payment Geteway Integration
+
+<b>Changed Files:</b>
+- Controller/Admin/PaymentAccountController.php
+- Controller/Admin/SettingsController.php
+- Controller/Patient/PaymentController.php
+- Controller/Patient/PaypalController.php
+- views/admin/payment-account/edit.blade.php
+- views/admin/settings/index.blade.php
+- routes/web.php
+- public/patient/css/style.css
+- views/layouts/patient/header.blade.php
+- views/patient/profile/payment.blade.php
+- inserted last 16 rows in manage_texts.sql 
+- inserted last 5 rows in validation_texts.sql 
+- inserted 6 new column in payment_accounts.sql
+- inserted 2 new column in razorpays.sql
+- inserted 3 new column in flutterwaves.sql
+
+<b>New Files:</b>
+- App/Currency.php
+- App/CurrencyCountry.php
+- App/PaystackAndMollie.php
+- App/InstamojoPayment.php
+- currency_countries.sql
+- currencies.sql
+- instamojo_payments.sql
+- paystack_and_mollies.sql
+</pre>
+            <h4>Version 2.1</h4>
+            <pre>
+<b>Overall:</b>
+- Flutterwave Payment Geteway Integration
+- Fixed currency rate issue
+- Fixed paginate issue
+- Fixed public path issues
+
+<b>Changed Files:</b>
+- inserted last 5 new rows in manage_texts.sql
+- inserted last 2 new rows in validation_texts.sql
+- inserted new column(currency_rate, data-type(double)) in settings.sql
+- routes/web.php
+- views/admin/payment-account/edit.blade.php
+- views/admin/settings/index.blade.php
+- Controller/Admin/SettingsController.php
+- Controller/Admin/PaymentAccountController.php
+- Controller/Patient/HomeController.php
+- Controller/Patient/PaymentController.php
+- Controller/Patient/PaypalControlle.php
+- views/patient/profile/payment.blade.php
+<b>New Files:</b>
+- flutterwaves.sql 
+- App\Flutterwave.php
+</pre>
+            <h4>Version 2.0</h4>
+            <pre>
+<b>Overall:</b>
+- Laravel Version Upgrade(7 to 8)
+- Dynamic Language and Pagination
+- Razorpay Payment Integration
+- Fully RTL Support
+
+<b>Changed Files:</b>
+- Major changed, most of the files are changed.
+</pre>
+            <h4>Version 1.3</h4>
+            <pre>
+<b>Overall:</b>
+- Zoom Meeting Implemented.
+- Dynamic Email Configuration.
+- Admin and Patient prescription system minor bug fixed.
+- Doctor search system minor bug fixed.
+- sql file updated (There is an instruction into sql folder).
+
+<b>Changed Files:</b>
+- App/ManageText.php
+- Controllers/Admin/DoctorController.php
+- Controllers/Admin/PateintController.php
+- Controllers/Admin/TextController.php
+- Controllers/Patient/HomeController.php
+- views/admin/prescribe/show.blade.php
+- views/admin/manage-text/index.blade.php
+- views/patient/profile/show-appointment.blade.php
+- routes/web.php
+- Controllers/Admin/DoctorController.php
+- Controllers/Admin/SubscriberController.php
+- Controllers/Admin/SettingsController.php
+- Controllers/Admin/Auth/ForgotPasswordController.php
+- Controllers/Auth/RegisterController.php
+- Controllers/Doctor/Auth/ForgotPasswordController.php
+- Controllers/Patient/ContactController.php
+- Controllers/Patient/PaymentController.php
+- Controllers/Patient/PaypalController.php
+->views/patient/profile/sidebar.blade.php
+->views/layouts/admin/layout.blade.php
+->views/layouts/admin/header.blade.php
+->views/layouts/admin/footer.blade.php
+->views/layouts/doctor/layout.blade.php
+->public/admin/timepicker/jquery.timepicker.min.js
+->public/admin/timepicker/jquery.datetimepicker.full.min.js
+->.env
+
+
+<b>New Added Files:</b>
+- App/Mail/SendZoomMeetingLink.php
+- App/Traits/ZoomMeetingTrait.php
+- App/Helpers/MailHelper.php.php
+- App/ZoomCredential.php
+- App/EmailConfiguration.php
+- App/ZoomMeeting.php
+- App/MeetingHistory.php
+- Controllers/Doctor/ZoomCredentalController.php
+- Controllers/Doctor/MeetingController.php
+- Controllers/Patient/MeetingController.php
+- Controllers/Admin/MeetingController.php
+- Controllers/Admin/EmailConfigurationController.php
+- views/admin/zoom/meeting-history.blade.php
+- views/admin/email-configuration/index.php
+- views/patient/profile/meeting-history.blade.php
+- views/patient/profile/upcoming-meeting.blade.php
+- views/doctor/zoom/setting/index.blade.php
+- views/doctor/zoom/meeting/index.blade.php
+- views/doctor/zoom/meeting/create.blade.php
+- views/doctor/zoom/meeting/edit.blade.php
+- views/doctor/zoom/meeting/history.blade.php
+- views/doctor/zoom/meeting/upcoming.blade.php
+</pre>
+            <h4>Version 1.2</h4>
+            <pre>
+<b>Overall:</b>
+- Doctor prescription system minor bug fixed.
+- Confirm appointment mailing system minor bug fixed.
+- Slug related some minor bug fixed.
+- sql file updated.
+
+<b>Changed Files:</b>
+- Controllers/Doctor/AppointmentController.php
+- Controllers/Patient/HomeController.php
+- Controllers/Patient/PaypalController.php
+- views/doctor/appointment/already-treated.blade.php
+- views/doctor/appointment/edit-treatment.blade.php
+</pre>
+
+            <h4>Version 1.1</h4>
+            <pre>
+<b>Overall:</b>
+- Message system minor bug fixed.
+
+<b>Changed Files:</b>
+- routes/web.php
+</pre>
+            <h4>Version 1.0</h4>
+            <pre>
+Initial Release
+</pre>
+        </section>
+
+    </div>
+</body>
+
+</html>

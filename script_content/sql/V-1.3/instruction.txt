@@ -1,0 +1,12 @@
+1.	Import updated_database.sql to your existing database
+2.	Add mentioned row to manage_texts table
+
+	filed_name -----------type--------length
+	_________________________________________
+
+	upcoming_meeting------varchar-------200
+	meeting_history-------varchar-------200
+	duration--------------varchar-------200
+	meeting_id------------varchar-------200
+	minute ---------------varchar-------200
+	join_link-------------varchar-------200

@@ -1,0 +1,20 @@
+
+
+------------------ payment_accounts.sql ------------
+    paypal_country_code (datatype varchar with nullable),
+    paypal_currency_code (datatype varchar with nullable),
+    paypal_currency_rate (datatype DOUBLE),
+    stripe_country_code (datatype varchar with nullable),
+    stripe_currency_code (datatype varchar with nullable),
+    stripe_currency_rate (datatype DOUBLE)
+
+
+------------------- razorpays.sql -----------------
+    country_code (datatype varchar with nullable),
+    currency_code (datatype varchar with nullable),
+
+
+-------------------- flutterwaves.sql ----------------
+    country_code (datatype varchar with nullable),
+    currency_code (datatype varchar with nullable),
+    currency_rate (datatype DOUBLE),
